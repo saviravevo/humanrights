@@ -8,6 +8,7 @@ DATA :
 - Demo about human rights (Event Code : 1413)
 - Accusing of Human Rights abuses (Event Code : 1122)
 - Investigation of Human Rights abuses (Event Code : 092)
+- Demand Rights (Event Code : 1043 )
 
 PROCESS :
 1. opening data from GDELT using google big query, filter data using SQL query, save to csv
@@ -19,7 +20,7 @@ PROCESS :
 Contain of:
 1. Data acquired : demoHR, accuseHR, investigationHR
 2. Data preprocessing : demoData, accuseData, investigationData
-3. Code for pre-processing 
-4. Code for Stat Descriptive
+3. Code for pre-processing : 
+4. Code for Stat Descriptive : proyek.ipynb, MergeData.ipynb
 5. Code for ML ======on going=========
 6. Eval code =====on going============
